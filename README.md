@@ -6,6 +6,11 @@ This project was created to deepen my understanding of full-stack web developmen
 
 ---
 
+<p align="center">
+  <img src="public/images/popkino.png" width="800">
+</p>
+
+---
 ## 🚀 Features
 
 - 🔍 Search for movies
@@ -40,12 +45,6 @@ This project was created to deepen my understanding of full-stack web developmen
 - Git
 - GitHub
 - npm
-
----
-
-<p align="center">
-  <img src="public/images/popkino.png" width="500">
-</p>
 
 ---
 
