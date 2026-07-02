@@ -23,8 +23,8 @@ This project was created to deepen my understanding of full-stack web developmen
 
 ### Frontend
 
-- React
-- Next.js
+- React 19
+- Next.js 15
 - JavaScript
 - CSS
 - Responsive Design
@@ -44,7 +44,7 @@ This project was created to deepen my understanding of full-stack web developmen
 ---
 
 <p align="center">
-  <img src="public/images/gamePlay.gif" width="500">
+  <img src="public/images/popkino.png" width="500">
 </p>
 
 ---
