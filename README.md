@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 PopKiNo
 
-## Getting Started
+A modern movie discovery web application built with **Next.js**, **React**, and **Prisma**.
 
-First, run the development server:
+This project was created to deepen my understanding of full-stack web development with Next.js. It is my first application using **Next.js** together with **Prisma**, where I explored both frontend and backend development in a real-world project.
+
+---
+
+## 🚀 Features
+
+- 🔍 Search for movies
+- 🎥 Browse popular movies
+- 📈 View trending movies
+- ❤️ Favorite movies
+- 📝 Movie reviews
+- 📚 Personal watchlist
+- 👤 User authentication
+- 📱 Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Next.js
+- JavaScript
+- CSS
+- Responsive Design
+
+### Backend
+
+- Next.js API Routes
+- Prisma ORM
+- Database (SQLite / PostgreSQL)
+
+### Other Tools
+
+- Git
+- GitHub
+- npm
+
+---
+
+<p align="center">
+  <img src="public/images/gamePlay.gif" width="500">
+</p>
+
+---
+
+## 💡 What I Learned
+
+This project helped me gain practical experience with:
+
+- Building a full-stack application using Next.js
+- Creating API routes
+- Working with Prisma ORM
+- Database modeling
+- CRUD operations
+- Authentication and user management
+- Component-based architecture
+- State management in React
+- Organizing a larger project structure
+
+As this is my first project using Next.js and Prisma, I learned a lot about connecting frontend and backend in one application.
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/popkino.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Configure environment variables
+
+```bash
+DATABASE_URL=your_database_url
+```
+
+Run Prisma migrations
+
+```bash
+npx prisma migrate dev
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+components/
+lib/
+prisma/
+public/
+styles/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Future Improvements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Movie recommendations
+- Dark mode
+- Advanced filtering
+- Ratings
+- User profiles
+- Pagination
+- Better error handling
+- Unit tests
+- Deployment
